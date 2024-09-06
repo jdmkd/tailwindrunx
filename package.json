@@ -3,12 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  
   "scripts": {
-      "build": "npx tailwindcss -i ./src/tailwind.css -o ./public/tailwind-output.css --minify"
+    "build": "npx tailwindcss -i ./src/tailwind.css -o ./public/tailwind-output.css --minify"
   },
-  
-  
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -19,7 +16,7 @@
     "tailwindcss": "^3.4.3"
   },
   "dependencies": {
-    "flowbite": "^2.3.0",
+    "flowbite": "^2.5.1",
     "swiper": "^11.1.4"
   }
 }
